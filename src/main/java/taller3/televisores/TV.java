@@ -12,6 +12,7 @@ public class TV {
     public TV(Marca mark, boolean status) {
         this.marca = mark;
         this.estado = status;
+        numTV++;
     }
 
     public Marca getMarca() {
